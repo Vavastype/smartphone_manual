@@ -21,8 +21,8 @@
 
 <br><p>Funcionalidades:</p>
 
-![Function](https://github.com/Vavatrewq/smartphone_manual/blob/master/public/assets/gif/smartphone-manual.gif)
+![Function](https://github.com/Vavastype/smartphone_manual/blob/master/public/assets/gif/smartphone-manual.gif)
 
 <p>Responsividade:</p>
 
-![resposive](https://github.com/Vavatrewq/smartphone_manual/blob/master/public/assets/gif/responsive-smart.gif)
+![resposive](https://github.com/Vavastype/smartphone_manual/blob/master/public/assets/gif/responsive-smart.gif)
