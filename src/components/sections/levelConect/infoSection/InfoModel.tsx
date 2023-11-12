@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import icon_fap from 'src/assets/icons/fap-logo.png'
+import icon_fap from 'public/assets/icons/fap-logo.png'
 import { FcGraduationCap } from 'react-icons/fc'
 import { BsGithub } from 'react-icons/bs'
 import { StartLevel } from 'src/components/sections/InfoPage'
-import 'src/css/leave.css'
-import 'src/css/leaveResponsive.css'
+import 'public/css/leave.css'
+import 'public/css/leaveResponsive.css'
 import TypeModel from 'src/types/infoModel'
 import { Home } from 'src/components/home/Home'
 

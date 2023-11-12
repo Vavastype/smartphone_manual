@@ -1,4 +1,4 @@
-import phone from 'src/assets/icons/phone.png'
+import phone from 'public/assets/icons/phone.png'
 import { InfoModel } from '../sections/levelConect/infoSection/InfoModel'
 
 export function Home(): JSX.Element {

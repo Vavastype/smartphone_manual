@@ -13,7 +13,7 @@
  <li>Mudança de página para cada level.</li>
  <li>Responsividade.</li>
 <ul>
- 
+
 <div align="center">
 
 <h2>Ferramentas de Criação: 🔍</h2>
@@ -21,10 +21,8 @@
 
 <br><p>Funcionalidades:</p>
 
-![Function](https://github.com/Vavatrewq/manual-introduction/blob/master/src/assets/gif/smartphone-manual.gif)
+![Function](https://github.com/Vavatrewq/manual-introduction/blob/master/public/assets/gif/smartphone-manual.gif)
 
 <p>Responsividade:</p>
-  
-![resposive](https://github.com/Vavatrewq/manual-introduction/blob/master/src/assets/gif/responsive-smart.gif)
- 
- <p align="center">2023 | Wagner De Souza Mendes | DEV 🫡</p>
+
+![resposive](https://github.com/Vavatrewq/manual-introduction/blob/master/public/assets/gif/responsive-smart.gif)
