@@ -1,0 +1,84 @@
+.btn-page{
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.btn{
+  margin: 10px;
+  padding: 15px;
+  background-color: #0077B6;
+  border-radius: 10px;
+  border: none;
+  color: #ffff;
+  transition: 300ms;
+}
+
+.btn:hover{
+  box-shadow: #0077B6 0px 0 0 1px;
+  background-color: #ffff;
+  color:#0077B6;
+}
+
+/*BTN - Home*/
+
+.btn-circle{
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+  border: #0077B6 solid 1px;
+  cursor: pointer;
+  margin: 0px 0px 0px 0px;
+  background-color: #9fd5f3;
+  transition: 300ms;
+}
+
+.btn-circle:hover{
+  box-shadow: #0077B6 0px 0 0 1px;
+  background-color: #ffff;
+  color:#0077B6;
+}
+
+.btn-start{
+  background-image: url(../assets/icons/graduated.png);
+}
+
+.btn-between{
+  background-image: url(../assets/icons/inspiration.png);
+}
+
+.btn-third{
+  background-image: url(../assets/icons/ability.png);
+}
+
+.show-btn, p{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.box-btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*Tag - Links*/
+
+a{
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+  transition: 300ms;
+}
+
+a:hover{
+  color:#0077B6;
+}
