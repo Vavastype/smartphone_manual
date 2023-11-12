@@ -1,0 +1,146 @@
+@media only screen and (max-width:1350px) {
+  .block-page{
+    padding: 50px;
+  }
+
+  .element-block{
+    margin-left: 100px;
+  }
+
+  .student-authors{
+    display: grid;
+    grid-template: auto auto / auto auto auto;
+  }
+}
+
+@media only screen and (max-width:750px) {
+
+  .body-left{
+    width: auto;
+    height: 100%;
+    background-color: #0080C3;
+    float: none;
+  }
+
+  .body-right, .show-content, .show-btn{
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .title-text{
+    margin: auto;
+  }
+
+  .space-top{
+    margin-top: 50px;
+  }
+
+  .show-text-start{
+    display: flex;
+    text-align: center;
+    max-width: 300px;
+    color: #ffff;
+    padding: 0;
+    margin: 0px 0px 25px 0px;
+  }
+
+  .show-text{
+    display: none;
+  }
+
+  .img_book,.title-text{
+    position: static;
+  }
+
+  .logo_fap-top{
+    display: flex;
+    width: 100%;
+  }
+
+  .logo_fap{
+    display: none;
+  }
+
+  /*Esta em revisão*/
+  .show-btn{
+    max-width: 300px;
+  }
+
+  .btn-circle{
+    height: 50px;
+    width: 50px;
+    margin: 50px 5px 0px 0px;
+  }
+
+  .student-authors{
+    display: grid;
+    grid-template: auto auto auto / auto auto;
+  }
+
+  li{
+    list-style: none;
+    margin: 10px;
+  }
+
+  /*Body - Element*/
+
+  .element-circleTwo{
+    display: none;
+  }
+
+  .element-circleOne{
+    display: none;
+  }
+
+  .element-block-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 0;
+  }
+
+  .element-block{
+    display: none;
+  }
+
+  /*page Circle*/
+
+  .circle-page{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:400px){
+  .element-block-botton{
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (max-height:900px) {
+  .img_book{
+    height: 30%;
+  }
+
+  .show-text-start{
+    margin: 0px 0px 50px 0px;
+  }
+
+  .element-block-botton{
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (max-height:600px) {
+  .logo_fap-top{
+    margin: 100% 0px 0px 0px;
+  }
+
+  .element-block-botton{
+    padding-top: 100%;
+  }
+}
+
+

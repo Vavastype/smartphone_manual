@@ -1,0 +1,94 @@
+button{
+  cursor: pointer;
+}
+
+.typeLogo-fap{
+  margin: 10px;
+}
+
+.title-page{
+  text-align: center;
+  font-size: 25px;
+}
+
+.content-info, .infoPage{
+  display: grid;
+  grid-template: auto / auto auto;
+  margin: 150px;
+}
+
+.infoPage{
+  font-size: 150%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px 5px #0080C3;
+  max-width: auto;
+  margin: 50px 10px 10px 10px;
+  padding: 10px;
+  transition: 300ms;
+}
+
+h2{
+  color:#025987;
+  font-size: large;
+}
+
+.contents{
+  padding: 10px;
+}
+
+.infoPage:hover{
+  box-shadow: 0px 0px 0px 1px #0080C3;
+}
+
+.show-img{
+  width: 100%;
+  transition: 500ms;
+  border-radius: 5%;
+}
+
+
+@media only screen and (max-width:1200px) {
+  .content-info, .infoPage{
+    margin: 0;
+  }
+
+  .infoPage{
+    display: block;
+    margin: 20px 10px auto 10px;
+  }
+
+  .content-info{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  header{
+    text-align: center;
+  }
+
+  .typeLogo-fap{
+    text-align: center;
+  }
+
+  .content-info, .infoPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show-img{
+    float: none;
+    width: 100%;
+  }
+  .infoPage{
+    margin-top: 50px;
+  }
+
+  .btn-page, .btn, a{
+    margin: 20px 0px 50px 0px;
+    width: 90%;
+  }
+}
